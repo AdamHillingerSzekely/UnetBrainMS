@@ -13,12 +13,48 @@ In addition, scripts are included pertaining to the associated paper to perform 
 Another script is included to flip or rotate the data, the relevant script is used on both the imaging data and their respective delineations
 ![Rotation of Images](Images/rotationimages.png)
 
-# Repository Download and Packages
-
 # The Data
 ![Shanoir Logo](Images/shanoir.png) <br>
 
 The data used for the study was the MICCAI 2016 dataset which can be found on the Shanoir platform [2]. Due to the licensing agreement the data is not uploaded here, however it can be accessed freely through requesting an account on the following website: https://shanoir.irisa.fr/shanoir-ng/account-request. The dataset contains  T1, T2, FLAIR, gadolinium-enhanced and proton density imaging modalities for each of the 53 images contained within the dataset. 
+# Repository Download and Packages
+### Clone Repository
+<pre>bash git clone https://github.com/AdamHillingerSzekely/UnetBrainMS.git 
+cd UnetBrainMS/MSLesionSegmentation </pre>
+
+### Virtual Environment
+<pre>python -m venv MSENV
+source MSENV/bin/activate </pre>
+
+### Install Dependencies
+<pre>pip install -r requirements.txt</pre>
+
+### Directiory Structure
+It is important to place the data once accessed within the Niftis_complete directory and ensure that the directory names in the script match those in which the data are stored. Multiple MRI modalites are contained so ensure this is reflected when choosing which data type to train and test the model on. 
+```text
+MSLesionSegmentation/
+├──requirements.txt
+├── Preprocess.py
+├── Train.py
+├── Losses.py
+├── utilities.py
+├── Niftis_complete/
+│   ├── Testing_Images_/
+│   ├── Testing_Labels/
+│   ├── Training_Images_/
+│   └── Training_Labels/
+└──Results/
+├──MW.py
+├──RotatImagesDataset.py
+├──View.py
+├──HolesAndVolumesCalc.py
+└──FillHoles.py
+```
+### Running scripts
+For example:
+<pre>python Train.py</pre> 
+
+
 
 # Metrics
 
