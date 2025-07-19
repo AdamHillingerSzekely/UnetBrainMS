@@ -58,7 +58,7 @@ For example:
 
 # Metrics
 
-The Dice results for both the training process and testing process are illustrate as an example over 2,000 epochs. Other metrics included are the true positive rate, false postive rate, true negative rate and false negative rate can all be plotted. 
+The Dice results for both the training process and testing process are illustrate as an example over 700 epochs. Other metrics included are the true positive rate, false postive rate, true negative rate and false negative rate can all be plotted. 
 ![Dice Results](Images/DiceTestTrain.png)
 
 
