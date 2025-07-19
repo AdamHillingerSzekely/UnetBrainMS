@@ -8,9 +8,9 @@ This repository provides documentation and code for using a U-Net model to segme
 
 
 
-In addition, scripts are included pertaining to the associated paper to perform the augmentations used in the study. These include scripts through which lesion volume size can be restricted by used of thresholds. This script only needs to operate on the labels data.
+In addition, scripts are included pertaining to the associated paper to perform the augmentations used in the study. These include scripts through which lesion volume size can be restricted by used of thresholds. This script only needs to operate on the labels data. Separate scripts for both counting and calculating lesion size, and filling in delineated lesions above or below a defined size are included (HolesAndVolumesCalc.py and FillHoles.py, respectively).
 ![lesion size restriction](Images/lesionsizes.png)
-Another script is included to flip or rotate the data, the relevant script is used on both the imaging data and their respective delineations
+Another script is included to flip or rotate the data, the relevant script is used on both the imaging data and their respective delineations. The script to enable this is titled: RotatImagesDataset.py
 ![Rotation of Images](Images/rotationimages.png)
 
 # The Data
