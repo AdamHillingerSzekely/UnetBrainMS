@@ -8,18 +8,21 @@ This repository provides documentation and code for using a U-Net model to segme
 
 
 
-In addition, scripts are included pertaining to the associated paper to perform the augmentations used in the study. These include scripts through which lesion volume size can be restricted by used of thresholds. 
+In addition, scripts are included pertaining to the associated paper to perform the augmentations used in the study. These include scripts through which lesion volume size can be restricted by used of thresholds. This script only needs to operate on the labels data.
 ![lesion size restriction](Images/lesionsizes.png)
+Another script is included to flip or rotate the data, the relevant script is used on both the imaging data and their respective delineations
 ![Rotation of Images](Images/rotationimages.png)
 
 # Repository Download and Packages
 
 # The Data
 
-The data used for the study was the MICCAI 2016 dataset which can be found on the Shanoir platform [2]. Due to the licensing agreement the data is not uploaded here, however it can be accessed freely through requesting an account on the following website: https://shanoir.irisa.fr/shanoir-ng/account-request. The dataset contains a number of sequencing modali
+The data used for the study was the MICCAI 2016 dataset which can be found on the Shanoir platform [2]. Due to the licensing agreement the data is not uploaded here, however it can be accessed freely through requesting an account on the following website: https://shanoir.irisa.fr/shanoir-ng/account-request. The dataset contains a number of sequencing modalities including T1, T2, FLAIR, gadolinium-enhanced and proton density images. 
 ![Shanoir Logo](Images/shanoir.png)
 # Metrics
-![Dice](Images/DiceTestTrain.png)
+
+The Dice results for both the training process and testing process are illustrate as an example over 2,000 epochs. Other metrics included are the true positive rate, false postive rate, true negative rate and false negative rate can all be plotted. 
+![Dice Results](Images/DiceTestTrain.png)
 
 
 ## References
