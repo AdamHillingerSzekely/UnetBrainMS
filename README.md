@@ -16,9 +16,10 @@ Another script is included to flip or rotate the data, the relevant script is us
 # Repository Download and Packages
 
 # The Data
+![Shanoir Logo](Images/shanoir.png) <br>
 
-The data used for the study was the MICCAI 2016 dataset which can be found on the Shanoir platform [2]. Due to the licensing agreement the data is not uploaded here, however it can be accessed freely through requesting an account on the following website: https://shanoir.irisa.fr/shanoir-ng/account-request. The dataset contains a number of sequencing modalities including T1, T2, FLAIR, gadolinium-enhanced and proton density images. 
-![Shanoir Logo](Images/shanoir.png)
+The data used for the study was the MICCAI 2016 dataset which can be found on the Shanoir platform [2]. Due to the licensing agreement the data is not uploaded here, however it can be accessed freely through requesting an account on the following website: https://shanoir.irisa.fr/shanoir-ng/account-request. The dataset contains  T1, T2, FLAIR, gadolinium-enhanced and proton density imaging modalities for each of the 53 images contained within the dataset. 
+
 # Metrics
 
 The Dice results for both the training process and testing process are illustrate as an example over 2,000 epochs. Other metrics included are the true positive rate, false postive rate, true negative rate and false negative rate can all be plotted. 
