@@ -67,3 +67,6 @@ The Dice results for both the training process and testing process are illustrat
 [1] Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation. InInternational Conference on Medical image computing and computer-assisted intervention 2015 Oct 5 (pp. 234-241). Cham: Springer international publishing. DOI: https://doi.org/10.48550/arXiv.1505.04597
 
 [2] Commowick O, Kain M, Casey R, Ameli R, Ferré JC, Kerbrat A, Tourdias T, Cervenansky F, Camarasu-Pop S, Glatard T, Vukusic S. Multiple sclerosis lesions segmentation from multiple experts: The MICCAI 2016 challenge dataset. Neuroimage. 2021 Dec 1;244:118589. DOI: https://doi.org/10.1016/j.neuroimage.2021.118589
+
+[3] Szekely-Kohn AC, Castellani M, Baronti L, Ahmed Z, Manifold WG, Douglas M, Espino DM. Reliability of a convolutional neural network in segmenting multiple sclerosis lesions from MRI: Impact of data augmentation, image modality and tolerance with U-Net architecture. PLOS Digital Health. 2026 Apr 1;5(4):e0001316. DOI:
+https://doi.org/10.1371/journal.pdig.0001316
